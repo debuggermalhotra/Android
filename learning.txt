@@ -1,0 +1,4 @@
+EditText: EditText is a thin veneer over TextView that configures itself to be editable.for more refer: https://developer.android.com/reference/android/widget/EditText.html
+
+findViewByID: 
+In the case of an Activity, findViewById starts the search from the content view (set with setContentView) of the activity which is the view hierarchy inflated from the layout resource.
