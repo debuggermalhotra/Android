@@ -12,6 +12,8 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Creating reference of buttons and EditText(the space where numbers will beoperated
+
      Button button0, button1, button2, button3, button4, button5, button6, button7, button8, button9, button_add, button_sub, button_mul, button_div, button10, buttonC, button_equal;
 
     EditText edt1;
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     boolean mAddition,mSubtract,mMultiplication,mDivison;
 
-
+//overriding the method onCreate()
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
