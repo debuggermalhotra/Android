@@ -2,3 +2,18 @@ EditText: EditText is a thin veneer over TextView that configures itself to be e
 
 findViewByID: 
 In the case of an Activity, findViewById starts the search from the content view (set with setContentView) of the activity which is the view hierarchy inflated from the layout resource.
+
+Gradient:
+In android, we can create Gradient drawable and use them as background resource for TextViews, Buttons, ListView etc. Gradient helps to make the the GUI better and stylish.
+
+Bitmap:
+
+The Bitmap (android.graphics.Bitmap) class represents a bitmap image. You create bitmaps via the BitmapFactory (android.graphics.BitmapFactory) class.
+
+Using a BitmapFactory, you can create bitmaps in three common ways: from a resource, a file, or an InputStream. To create a bitmap from a resource, you use the BitmapFactory method decodeResource():
+
+Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.someImage);
+
+http://www.informit.com/articles/article.aspx?p=2143148&seqNum=2
+
+
